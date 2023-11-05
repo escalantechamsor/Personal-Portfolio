@@ -9,7 +9,7 @@ export default function NotFound() {
             <h2 className='text-[1.3em] font-medium text-gray-700 mt-3'>
                 Could not find requested resource
             </h2>
-            <Link href={'/dashboard'}>
+            <Link href={'/'}>
                 <button className='w-[200px] h-10 rounded-lg bg-gray-800 flex items-center justify-center text-gray-100 mt-10'>Go Home</button>
             </Link>
         </div>
