@@ -16,7 +16,7 @@ function ProjectCard({ src, tittle, subtitle }: Props) {
                 <p className={`${styles.subtitle}`}>{subtitle}</p>
             </div>
             <div className={`${styles.cardback} relative`}>
-                <Image className='w-full h-[100%] object-contain transition-all' src={src} alt='Vista principal de proyecto creado' width={300} height={400} loading='lazy' />
+                <Image className='w-full h-[100%] object-contain transition-all' src={src} alt='Vista principal de proyecto creado' width={300} height={400} priority />
             </div>
         </div>
     )

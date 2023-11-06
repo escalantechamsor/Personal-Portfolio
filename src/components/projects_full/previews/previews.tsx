@@ -22,28 +22,28 @@ function PreviewsProjects() {
                     <Image className='w-full h-[100%] ' src={mixturecuk} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={villasort} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={villasort} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%]  ' src={coinpayu_clone} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%]  ' src={coinpayu_clone} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={musala_soft} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={musala_soft} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={taskifun} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={taskifun} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={stereo_sound} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={stereo_sound} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%]  ' src={youtube_clone} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%]  ' src={youtube_clone} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={news_homepage} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={news_homepage} alt='Image of a main page' priority />
                 </li>
                 <li>
-                    <Image className='w-full h-[100%] ' src={coctails} alt='Image of a main page' loading='lazy' />
+                    <Image className='w-full h-[100%] ' src={coctails} alt='Image of a main page' priority />
                 </li>
             </ul>
         </section>
