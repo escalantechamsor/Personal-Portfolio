@@ -23,11 +23,11 @@ function ContactForm() {
     formRef.current?.reset()
   }
   return (
-    <div className='lg:w-[60%] w-[90%] h-[70vh] bg-gray-900 mt-3 rounded-xl shadow-xl flex items-center justify-center pt-3'>
+    <div className='lg:w-[60%] w-[95%] h-[70vh] bg-gray-900 mt-3 rounded-xl shadow-xl flex items-center justify-center pt-3'>
       <form
         ref={formRef}
         onSubmit={onSubmit}
-        className='w-[400px] flex flex-col p-3 h-[100%]  justify-center'>
+        className='w-[450px] flex flex-col p-3 h-[100%]  justify-center'>
         <label className='text-gray-200 mb-1'>Name</label>
         <input
           className='w-full h-[50px] rounded-sm outline-none px-3 text-lg text-gray-600'
