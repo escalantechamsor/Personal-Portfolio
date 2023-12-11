@@ -9,14 +9,14 @@ import Link from 'next/link';
 import HomeProjects from './home_projects';
 import { project_details } from '@/components/projects_full/project_details'
 function Projects() {
-  
+
   return (
-    <section className="w-full min-h-[100vh] pb-20 relative">
-      <div className=" w-full flex items-center justify-center text-[2.2em] font-bold text-gray-800 mt-7">
+    <section className="w-full min-h-[90vh] pb-20 relative">
+      <div className=" w-full flex items-center justify-center text-[2.2em] font-bold text-gray-800 mt-3">
         My Projects
       </div>
-      <section className='lg:w-[90%] w-full mx-auto rounded-xl min-h-[90vh] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 flex-wrap gap-5 p-5 mt-5 bg-gray-100 '>
-        <Link href={'/projects'} className='absolute right-12 bottom-2'>
+      <section className=' w-full mx-auto rounded-xl min-h-[90vh] grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 flex-wrap gap-5 p-5 mt-2  '>
+        <Link href={'/projects'} className='absolute right-5 bottom-5'>
           <button className="w-[150px] h-12 bg-gray-800 rounded-full text-gray-100 font-medium hover:bg-gray-700 transition-all  ">
             Check projects
           </button>

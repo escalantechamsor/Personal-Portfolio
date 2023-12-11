@@ -8,7 +8,6 @@ export default function Home() {
 
   return (
     <section className="w-full min-h-[400vh] md:px-20 px-2 mt-[11vh] mb-20">
-
       <Welcome />
       <Experience />
       <Projects />

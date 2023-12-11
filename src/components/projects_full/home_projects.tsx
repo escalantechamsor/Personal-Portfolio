@@ -11,7 +11,7 @@ type Props = {
 }
 
 function HomeProjects({ src, tittle, subtitle, github }: Props) {
-  const cardStyle = `h-[40vh] rounded-xl shadow-xl overflow-hidden ${styles.cards} relative cursor-pointer`
+  const cardStyle = `h-[40vh] rounded-xl shadow-xl overflow-hidden ${styles.cards} relative cursor-pointer hover:border-gray-200 border-[1px]`
 
   return (
     <div className={`${cardStyle}`}>

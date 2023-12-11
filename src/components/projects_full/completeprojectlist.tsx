@@ -16,7 +16,7 @@ function CompleteProjectList() {
         <Fragment>
 
             <div
-                className={`w-[88%] mx-auto min-h-[100vh] rounded-xl mb-12 bg-gray-100  shadow-xl grid lg:grid-cols-3 md:grid-cols-2 gap-8 border-t-2 lg:p-5 p-7 ${styles.wall}`}>
+                className={`w-[88%] mx-auto min-h-[100vh] rounded-xl mb-12 bg-gray-100 bg-opacity-40 shadow-xl grid lg:grid-cols-3 md:grid-cols-2 gap-8 border-t-2 lg:p-5 p-7 ${styles.wall}`}>
 
                 <ProjectCard src={`${stereo.src}`} tittle='Stereo Sound' subtitle='Music app' />
                 <ProjectCard src={`${taskmanager.src}`} tittle='Task Manager' subtitle='CRUD app' />

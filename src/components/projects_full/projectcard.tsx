@@ -10,7 +10,7 @@ type Props = {
 
 function ProjectCard({ src, tittle, subtitle }: Props) {
     return (
-        <div className={`${styles.projectcard} shadow-2xl cursor-pointer `}>
+        <div className={`${styles.projectcard} shadow-lg cursor-pointer `}>
             <div className={`${styles.cardfront}`}>
                 <p className={`${styles.title}`}>{tittle}</p>
                 <p className={`${styles.subtitle}`}>{subtitle}</p>

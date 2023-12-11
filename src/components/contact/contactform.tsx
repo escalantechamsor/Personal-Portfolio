@@ -4,7 +4,7 @@ import emailjs from '@emailjs/browser';
 import styles from './contact.module.css'
 
 function ContactForm() {
-  const [sendNotification,setSendNotification]=useState(false);
+  const [sendNotification, setSendNotification] = useState(false);
   const formRef = useRef<HTMLFormElement>(null);
   const onSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -14,9 +14,9 @@ function ContactForm() {
     console.log(currentForm)
     emailjs.sendForm('service_t2kf6m8', 'template_rrrx3jd', currentForm, 'E0NonDtUv7FN-lbRS')
       .then((result) => {
-       setSendNotification(true)
+        setSendNotification(true)
         console.log(result.text);
-        setTimeout( ()=>{setSendNotification(false)}, 2000);
+        setTimeout(() => { setSendNotification(false) }, 2000);
       }, (error) => {
         console.log(error.text);
       });
@@ -30,14 +30,14 @@ function ContactForm() {
         className='w-[450px] flex flex-col p-3 h-[100%]  justify-center'>
         <label className='text-gray-200 mb-1'>Name</label>
         <input
-          className='w-full h-[50px] rounded-sm outline-none px-3 text-lg text-gray-600'
+          className='w-full h-[60px] rounded-sm outline-none px-3 text-lg text-gray-600'
           type="text"
           name="user_name"
           required
-          placeholder='Nombre(s) y apellidos' />
+          placeholder='Nombre(s) y Apellidos' />
         <label className='text-gray-200 mt-3 mb-1'>Email</label>
         <input
-          className='w-full h-[50px] rounded-sm outline-none px-3 text-lg text-gray-600'
+          className='w-full h-[60px] rounded-sm outline-none px-3 text-lg text-gray-600'
           type="email"
           name="user_email"
           required
@@ -51,7 +51,7 @@ function ContactForm() {
         <input
           className='w-full p-2 bg-gray-200 rounded-3xl my-5 h-[50px] font-semibold cursor-pointer hover:bg-gray-50 transition-all shadow-sm hover:shadow-md shadow-gray-500' type="submit"
           value="Send" />
-           <div className={`${styles.snackbar} ${sendNotification? `${styles.show} bg-green-500`:"hidden"}`}>Mensaje enviado correctamente...</div> 
+        <div className={`${styles.snackbar} ${sendNotification ? `${styles.show} bg-green-500` : "hidden"}`}>Mensaje enviado correctamente...</div>
       </form>
 
 

@@ -27,13 +27,13 @@ function Welcome() {
               download={'CV Rafael Rosabal Chamizo Frontend Developer'}
               target='_blank'
             >
-              <button className='px-5 py-2 min-w-[150px] h-12 text-gray-100 bg-gray-900 rounded-3xl transition-all hover:bg-gray-800 hover:shadow-2xl md:mx-3 mx-1'>
+              <button className='px-5 py-2 min-w-[150px] h-12 text-gray-100 bg-slate-800 rounded-3xl transition-all hover:bg-red-500 hover:shadow-2xl md:mx-3 mx-1'>
                 Download CV
               </button>
             </Link>
             <Link href={'/#contactme'}>
               <button
-                className='px-5 py-2 min-w-[150px] h-12 text-gray-100 bg-gray-900 rounded-3xl transition-all hover:bg-gray-800 hover:shadow-2xl md:mx-3 mx-1'>
+                className='px-5 py-2 min-w-[150px] h-12 text-gray-100 bg-slate-800 rounded-3xl transition-all hover:bg-green-500 hover:shadow-2xl md:mx-3 mx-1'>
                 Contact me
               </button>
             </Link>
@@ -62,7 +62,7 @@ function Welcome() {
             </li>
           </ul>
         </div>
-        <div className={`lg:w-[50%] w-full h-[60vh] lg:h-[80vh] flex items-center justify-center`}>
+        <div className={`lg:w-[50%] w-full h-[60vh] lg:h-[80vh] flex items-center justify-center lg:mt-0 mt-5`}>
           <Image className='md:w-[280px] w-[300px] transition-all h-[300px] md:h-[280px] rounded-full md:scale-110' src={profile} alt='Persona de perfil' priority placeholder='blur'/>
         </div>
       </div>
